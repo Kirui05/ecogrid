@@ -4,7 +4,7 @@ Theme URI: https://www.wpradiant.net/products/free-renewable-energy-wordpress-th
 Author: WP Radiant
 Author URI: https://www.wpradiant.net/
 Description: The Solar Energy WordPress Theme is a specialised solution designed for businesses and organisations within the renewable energy sector, specifically focusing on promoting solar energy solutions. This theme caters to solar energy companies, installers, and enterprises aiming to showcase the benefits of sustainable energy sources such as wind, hydropower, and geothermal energy. Its sleek and modern design allows users to present solar energy projects, installations, and technologies in a visually appealing manner, enhancing user engagement and understanding. Featuring a fully responsive layout, the Solar Energy WordPress Theme ensures optimal performance across all devices, from desktops to smartphones, making it accessible to a wider audience. Its user-friendly interface enables visitors to navigate effortlessly through various services, including solar panel installation, energy-efficient systems, and off-grid energy solutions. Customization options are abundant, allowing businesses to incorporate their branding elements—such as logos and colour schemes—while a range of layout choices provides flexibility in showcasing projects and services. The theme also emphasises SEO-friendly coding, which improves online visibility and helps attract potential clients interested in renewable energy solutions. By adopting the Solar Energy WordPress Theme, businesses can effectively communicate their commitment to eco-friendly practices, contribute to a sustainable future, and engage a growing market focused on clean energy innovations.
-Version: 1.1.2
+Version: 1.1.4
 Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.2
@@ -1647,7 +1647,7 @@ footer .wp-block-search__button{
 }
 .test-prev-next{
   position: absolute !important;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
@@ -1670,6 +1670,9 @@ footer .wp-block-search__button{
   display: grid;
   grid-template-columns: auto auto auto;
 }
+.testimonial-swiper-slider{
+  padding: 0 10px;
+}
 /* FAQ Section */
 .faq-list summary{
   position: relative;
@@ -1690,7 +1693,7 @@ footer .wp-block-search__button{
   bottom: 0;
   right: 0;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.3;
   content: "";
   z-index: -1;
   border-radius: 6px;
